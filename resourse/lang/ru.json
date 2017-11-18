@@ -357,5 +357,16 @@
   "water_treatment_plant_1": "Водоочистная станция",
   "water_treatment_plant_2": "Водоочистная станция",
   "water_treatment_plant_3": "Водоочистная станция",
-  "vendingmachine.deployed": "Мажор чёт продаёт :/"
+  "vendingmachine.deployed": "Мажор чёт продаёт :/",
+  "cave_small_easy": "Пещера [Маленькая/Легко]",
+  "cave_small_medium": "Пещера [Маленькая/Средне]",
+  "cave_small_hard": "Пещера [Маленькая/Сложно]",
+  "cave_medium_easy": "Пещера [Обычная/Легко]",
+  "cave_medium_medium": "Пещера [Обычная/Средне]",
+  "cave_medium_hard": "Пещера [Обычная/Сложно]",
+  "cave_large_easy": "Пещера [Большая/Легко]",
+  "cave_large_medium": "Пещера [Большая/Средне]",
+  "cave_large_hard": "Пещера [Большая/Сложно]",
+  "supermarket_1": "Супермаркет",
+  "gas_station_1": "АЗС"
 }

@@ -281,6 +281,7 @@ function mmap(data, worldSize){
 	var dotW = 20;
 	var dotH = 20;
 
+	console.log(data);
 
 	var lang = {};
 	lang = $.ajax({
@@ -429,6 +430,26 @@ function mapDotImg(name){
 			return "watertreatment";
 		break;
 
+        case 'cave_small_easy':
+        case 'cave_small_medium':
+        case 'cave_small_hard':
+        case 'cave_medium_easy':
+        case 'cave_medium_medium':
+        case 'cave_medium_hard':
+        case 'cave_large_easy':
+        case 'cave_large_medium':
+        case 'cave_large_hard':
+            return "cave";
+        break;
+
+        case 'supermarket_1':
+            return "supermarket";
+        break;
+
+        case 'gas_station_1':
+            return "gasstation";
+        break;
+
 		default:
 			return name;
 		break;
@@ -438,7 +459,7 @@ function mapDotImg(name){
 
 function updateSpecialLocation(type,data){
 	var elem;
-	var key, name, img;
+	var key, name, img, rot;
 
 	var mapW = $('#map').width();
 	var mapH = $('#map').height();
